@@ -129,7 +129,7 @@ nav .nav-link::before {
   background-color: var(--color-white);
   width: 0;
   height: 20%;
-  transition: all var(--transition-duration) var(--transition-cubic-bezier);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 nav .nav-item:hover .nav-link::before {
@@ -331,7 +331,7 @@ a:active {
 
 .card-work:hover .card-image {
   transform: scale(1.2);
-  transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
