@@ -300,10 +300,15 @@ a[href]:active {
 .card-work .card-outer {
   position: relative;
   overflow: hidden;
+  transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
   transform: scale(0.95);
+}
+
+.card-work .card-image {
+  transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-image img {
