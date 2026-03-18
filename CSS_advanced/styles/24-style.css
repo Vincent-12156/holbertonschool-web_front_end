@@ -196,7 +196,6 @@ a[href]:active {
   display: block;
   padding: calc(2 * 1rem);
   background-color: var(--color-light-grey);
-  text-decoration: none;
 }
 
 .card-services a:hover {
