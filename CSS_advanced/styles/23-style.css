@@ -102,15 +102,15 @@ main {
   padding: var(--footer-padding);
 }
 
-.footer-address {
+[data-section-theme="dark"] .footer-address {
   color: var(--text-color);
 }
 
-.social-link {
+[data-section-theme="dark"] .social-link {
   display: block;
 }
 
-.social-link svg {
+[data-section-theme="dark"] .social-link svg {
   fill: var(--text-color);
 }
 
