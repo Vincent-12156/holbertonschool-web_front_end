@@ -200,6 +200,12 @@ ul.row {
   box-sizing: border-box;
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
